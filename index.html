@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>Nosedive larp</title>
+		<meta name="description" content="Nosedive je obsahový skriptovaný larp"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon.png"/>
+		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"/>
+		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"/>
+		<link rel="manifest" href="/site.webmanifest"/>
+		<meta name="msapplication-TileColor" content="#da532c"/>
+		<meta name="theme-color" content="#ffffff"/>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+		<link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+		<link rel="stylesheet" href="./css/animate.min.css"/>
+		<link rel="stylesheet" href="./css/ionicons.min.css"/>
+		<link rel="stylesheet" href="./css/styles.css"/>
+		<link rel="stylesheet" href="./css/spinners.css"/>
+		<link rel="preconnect" href="https://fonts.googleapis.com"/>
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap" rel="stylesheet">
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+	</head>
+	<body data-bs-spy="scroll" data-bs-target="#mainNav" tabindex="0" style="position: relative;">
+		<nav class="navbar fixed-top navbar-expand-lg bg-light" id="mainNav">
+			<div class="container-fluid">
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="menu">
+					<ul class="navbar-nav m-auto mb-2 mb-lg-0">
+						<li class="nav-item"><a class="nav-link" href="#design" onclick="closeMenu()">Design</a></li>
+						<li class="nav-item"><a class="nav-link" href="#prakticke" onclick="closeMenu()">Praktické</a></li>
+						<li class="nav-item"><a class="nav-link" href="#medailonky" onclick="closeMenu()">Medailonky postav</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<header id="home" class="bg-light">
+			<div class="row d-flex justify-content-around align-items-center">
+				<div class="col-lg-3"></div>
+				<div class="col-lg-3">
+					<h1>nosedive</h1>
+					<div class="first-digit">
+						<ul class="digits first">
+							<li>0</li>
+							<li>1</li>
+							<li>2</li>
+							<li>3</li>
+							<li>4</li>
+							<li>5</li>
+						</ul>
+					</div>
+					<div class="dot">.</div>
+					<div class="second-digit">
+						<ul class="digits second">
+							<li>0</li>
+							<li>1</li>
+							<li>2</li>
+							<li>3</li>
+							<li>4</li>
+							<li>5</li>
+							<li>6</li>
+							<li>7</li>
+							<li>8</li>
+							<li>9</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</header>
+		<div>
+			<section class="bg-dark py-5" id="design">
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="col-lg-5 col-12">
+							<div class="img img-1">
+								<span class="circles-loader"></span>
+							</div>
+						</div>
+						<div class="col-lg-7 col-12">
+							<h1>Design hry</h1>
+							<h2 id="inspirace">Inspirace</h2>
+							<p>Black Mirror: epizoda Nosedive</p>
+							<p>Black Books: epizoda Elephants and Hens</p>
+							<p>George Orwell: 1984</p>
+							<p>Doporučujeme vidět epizodu Black Mirror: Nosedive (S03E01), dostupná je třeba na Netflixu. Naše hra tím je pouze inspirovaná, nemusíte se bát spoilerů.</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="bg-light py-5" id="setting">
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="col-lg-5 col-12 order-lg-2 order-1">
+							<div class="img img-2">
+								<span class="heartbeat-loader"></span>
+							</div>
+						</div>
+						<div class="col-lg-7 col-12 order-lg-1 order-2">
+							<h1>Setting</h1>
+							<p>Blízká budoucnost, ČR. Stát začal u každého občana evidovat sociální skóre - číslo 0-5, které má mnoho vstupů z různých institucí a firem. Jedním z důležitých vstupů je nejrozšířenější sociální síť Dive, která vám umožňuje zobrazit si profil kohokoliv, koho potkáte. Vidíte tam jejich skóre a můžete hodnotit každou interakci s tímto člověkem. Sociální skóre ovlivňuje váš život - lidé s vysokým skóre si mohou dovolit velké byty, cestování a luxus. Lidé s nejnižším skóre nemohou cestovat, žijí v ubytovnách pro nepřizpůsobivé, kde jsou sledováni, aby nezpůsobovali škody společnosti.</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="bg-dark py-5" id="situace">
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="col-lg-5 col-12">
+							<div class="img img-3">
+								<span class="flower-loader"></span>
+							</div>
+						</div>
+						<div class="col-lg-7 col-12">
+							<h1>Situace</h1>
+							<p>Hráči jsou účastníci rozlučky se svobodou nevěsty. Tam jsou pozváni lidé z různých sociálních skupin. Všichni si pamatují dobu, kdy ještě sociální skóre nebylo zavedeno. Nyní jsou všichni uživateli sítě Dive a čile ji používají.</p>
+							<h1 id="temata">Témata</h1>
+							<p>Sociální sítě, nebezpečí zneužití technologií, přílišná moc státu a korporací, hodnocení spolužáků, balancování, staré lásky, tajemství z minulosti.</p>
+							<h1 id="rozsah">Rozsah</h1>
+							<p>Hra na pomezí komorního larpu a větší hry. 4 hodiny hry pro 10 hráčů, 5 žen a 5 mužů.</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="bg-light py-5" id="styl">
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="col-lg-5 col-12 order-lg-2 order-1">
+							<div class="img img-4">
+								<span class="atebits-loader"></span>
+							</div>
+						</div>
+						<div class="col-lg-7 col-12 order-lg-1 order-2">
+							<h1>Styl hry</h1>
+							<p>Obsahový skriptovaný larp. Hráči hrají předem napsané postavy, mají předem dané vztahy mezi sebou. Silné zapojení mobilní aplikace, kterou se hráči navzájem scanují a hodnotí. Aplikace také slouží jako hlavní vstup od orgů - veřejné zprávy a zprávy konkrétním hráčům od externích entit (úřad, majitel bytu, cestovní kancelář, …). V této hře je žádané být často na mobilu!</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="bg-dark py-5" id="mechaniky">
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="col-lg-5 col-12">
+							<div class="img img-5">
+								<span class="gauge-loader"></span>
+							</div>
+						</div>
+						<div class="col-lg-7 col-12">
+							<h1>Mechaniky</h1>
+							<ul>
+								<li>Hodnocení pomocí aplikace vyvinuté přímo pro hru</li>
+								<li>Sociální síť postavená na Slacku</li>
+								<li>Reportování ostatních za libovolné prohřešky jako např. sprostá slova</li>
+								<li>Opilost: znamená větší upřímnost a s tím spojené pouštění tajemství do hry</li>
+								<li>Násilí: hra není o násilí, maximální level je třesení za ramena</li>
+								<li>Intimita: pro některé postavy je intimita důležitá, maximální level je sex = cokoliv se děje na jedné konkrétní dece. Není nutné se jakkoliv dotýkat.</li>
+								<li>Peníze: digitální měna EuroToken, možnost posílat €T ostatním</li>
+								<li>Larpový semafor: zelená přidej, žlutá uber, rudá stop</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="bg-light py-5" id="prakticke">
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="col-lg-5 col-12 order-lg-2 order-1">
+							<div class="img img-6">
+								<span class="timer-loader"></span>
+							</div>
+						</div>
+						<div class="col-lg-7 col-12 order-lg-1 order-2">
+							<h1>Praktické</h1>
+							<h2 id="lokace">Lokace</h2>
+							<p>Soukromý bar na adrese <a href="https://goo.gl/maps/cEeqovkEfsKxjdE79" target="_blank">Mezivrší 28, Praha 4</a></p>
+							<h2 id="harmonogram">Harmonogram</h2>
+							<p><strong>pátek 12. 1.</strong></p>
+							<ul>
+								<li>17.00: sraz na Mezivrší, workshopy</li>
+								<li>18.30: začátek hry (během hry bude občerstvení)</li>
+								<li>22:30: konec hry</li>
+								<li>22:30+: nepovinná retrospektiva a afterparty, na místě je možné přespat ve spacáku.</li>
+							</ul>
+							<h2 id="cena">Cena</h2>
+							<p>600 Kč</p>
+							<p>Obsahuje večeři a konzumaci během hry. Mimo hru si útratu platíte na baru sami.</p>
+							<p>Během hry se dá pít alkoholické pivo a víno, budou taky nealko náhražky a klasické nealko.</p>
+							<p>Panáky jsou vždy nealko náhražky.</p>
+							<h2 id="ssebou">S sebou</h2>
+							<p>Kostým: běžné oblečení, které by si vaše postava vzala na rozlučku se svobodou v dnešní době.</p>
+							<p>Mobilní telefon s Androidem 8+. Pokud máte jenom iPhone, můžeme telefon zapůjčit.</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="bg-dark py-5" id="medailonky">
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="col-lg-5 col-12">
+							<div class="img img-7">
+								<span class="heartbeat-loader"></span>
+							</div>
+						</div>
+						<div class="col-lg-7 col-12">
+							<h1>Medailonky postav</h1>
+							<p>(v závorce najdete hodnocení 0-5 na začátku hry)</p>
+							<h2 id="nina">Nina (4.5)</h2>
+							<p>Nevěsta, toto je její rozlučka! Je ambiciózní, inteligentní. Vysoké hodnocení jí zajištuje velké výhody ve společnosti. Nebojí se i trochu manipulovat lidmi okolo ní, aby jí hodnocení zůstalo.</p>
+							<p>Pro znalce epizody Nosedive: její předloha je nevěsta Naomi</p>
+							<h2 id="sylva">Sylva (4.2)</h2>
+							<p>Svědkyně, která organizuje tuto rozlučku. Nejlepší kamarádka nevěsty už od školky. Je trochu chaotická a dělá přešlapy. Moc se ale snaží, chce se nevěstě zavděčit. Ráda by si také akcí zvedla hodnocení, budou tam některé vyšší čtyřky!</p>
+							<p>Pro znalce epizody Nosedive: její předloha je hlavní postava Lacie</p>
+							<h2 id="iva">Iva (4.8)</h2>
+							<p>Sestra nevěsty a známá sportovní influencerka. Díky Divu je všeobecně známá a má mnoho fanoušků. Jinak je trochu jednodušší a povrchní. Hodnocení je pro ní všechno. Chtěla by být svědkyní, rozlučku by zorganizovala líp!</p>
+							<h2 id="lenka">Lenka (3.9)</h2>
+							<p>Nejlepší kamarádka nevěsty ze střední. Tišší a introvertnější, ale s nevěstou si skvěle rozumí. Ve hře bude řešit romantické linky s několika postavami.</p>
+						</div>
+					</div>
+					<div class="row align-items-center">
+						<div class="col-lg-5 col-12 order-lg-2 order-1">
+							<div class="img img-8">
+								<span class="heartbeat-loader"></span>
+							</div>
+						</div>
+						<div class="col-lg-7 col-12 order-lg-1 order-2">
+							<h2 id="bara">Bára (2.4)</h2>
+							<p>Kdysi vysoce postavená manažerka, pracovali s nevěstou ve stejné firmě. Rozjížděla vždycky zábavu na každém firemním večírku. Po jistém incidentu v práci jí rapidně spadlo hodnocení. Ztratila iluze a nyní kritizuje Dive a systém. Dive ale musí používat, aby životem aspoň nějak proplouvala.</p>
+							<p>Pro znalce epizody Nosedive: její předloha je truckerka Susan</p>
+							<h2 id="richard">Richard (4.7)</h2>
+							<p>Charismatický šéf od nevěsty z práce. Je bohatý a obdivovaný ženami. Je trochu arogantní, ale systém mu umožňuje si spoustu věcí zařídit. Tuhle rozlučku si chce pořádně užít.</p>
+							<h2 id="hubert">Hubert (4.4)</h2>
+							<p>Bratr nevěsty. Nemají se moc v lásce, ale musí být na rozlučce, “aby se neřeklo”. Nevěsta si o něm myslí, že celý život jenom hledal zkratky a stýkal se s podezřelými lidmi. Vyplatilo se: za chvíli bude mít stejné hodnocení, jako sestra.</p>
+							<h2 id="mirek">Mirek (3.7)</h2>
+							<p>Taneční partner nevěsty. Je milý a hodný a to mu v tomto světě moc nepomáhá. Ve hře bude řešit romantické linky s několika postavami.
+							<h2 id="karel">Karel (3.5)</h2>
+							<p>Kamarád nevěsty a svědkyně ze školky. Svědkyně si pamatuje, že s ním byla vždycky sranda. Od školky se ale neviděli a svědkyni přišlo jako skvělý nápad ho pozvat na rozlučku jako překvapení. Ostatní si myslí, že je tak trochu podivín.</p>
+							<h2 id="vasyl">Vasyl (2.1)</h2>
+							<p>Uprchlík z Ukrajiny, snaží se všemi způsoby dostat z chudých poměrů, je ale v jádru dobrý chlap. Nedávno na něj ale něco prasklo a spadlo mu hodnocení. Trápí se, neví co se životem. V hospodě potkal Báru, svěřoval se jí a ta ho bez ohlášení dotáhla na tuto rozlučku. Je mu jedno, že skoro nikoho nezná. Třeba se na něj usměje štěstí.</p>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+		<footer id="footer" class="bg-light py-3">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col d-flex justify-content-end">
+						<a href="" target="_blank" class="text-center"><img src="img/facebook.svg" alt="Facebook" class="footer-logo p-2"/></a>
+						<a href="" target="_blank" class="text-center"><img src="img/instagram.svg" alt="Instagram" class="footer-logo p-2"/></a>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<script type="text/javascript" src="./js/jquery.min.js"></script>
+		<script type="text/javascript" src="./js/typewriter.js"></script>
+		<script type="text/javascript" src="./js/wow.js"></script>
+		<script type="text/javascript" src="./js/scripts.js"></script>
+		<script>
+			window.addEventListener('click', event => renderEffect(event))
+			function renderEffect(event) {
+				let effect = document.createElement('div');
+				document.body.appendChild(effect);
+				effect.classList.add('effect');
+				effect.style.left = event.clientX - 6 + 'px';
+				effect.style.top = event.clientY - 6 + 'px';
+				effect.classList.add('effect_animating');
+				setTimeout(()=>removeEffect(effect), 2000);
+			}
+			function removeEffect(effect) {
+				effect.clasList.add('effect_removing');
+				setTimeout(()=>document.body.removeChild(effect), 1000);
+			}
+		</script>
+	</body>
+</html>

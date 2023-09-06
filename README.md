@@ -1,2 +1,3 @@
 # nosedive
-website for a czech larp game
+
+HTML webpage for a larp game
